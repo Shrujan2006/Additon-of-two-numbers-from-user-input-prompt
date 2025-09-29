@@ -1,5 +1,5 @@
 import java.util.*;
-class LogicalOperator{
+class RelationalOperator{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the first number:");
@@ -10,14 +10,21 @@ class LogicalOperator{
     }
 public static void isgreaterislesser(int a,int b){
     if (a>b){
-       System.out.println(a+"  is G45reater than "+b);
+       System.out.println(a+"  is Greater than "+b);
+    }
+    else if(a==b)
+    {
+        System.out.println(a+"  is Equal to "+b);
     }
     else{
+
         System.out.println(a+"  is Lesser than  "+b);
     }
 
     }
     
 }
+
+
 
         
